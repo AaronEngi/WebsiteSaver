@@ -1,0 +1,6 @@
+rootProject.name = 'WebsiteSaver'
+
+include 'LibJava'
+project(':LibJava').projectDir = new File(settingsDir, '../LibJava')
+
+
